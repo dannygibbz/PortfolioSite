@@ -195,7 +195,7 @@ li {
 }
 
 .landing-text h1 {
-  font-size: 16rem;
+  font-size: 15rem;
   font-family: "Bungee Shade", cursive;
   background: linear-gradient(to top, gray, #57e9ee);
   -webkit-background-clip: text;
