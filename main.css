@@ -126,7 +126,7 @@ li {
 
 .nav-link:hover,
 .nav-link:focus {
-  background: linear-gradient(to top, #57e9ee, #210070);
+  background: linear-gradient(to top, #ffe838, #bd2d48);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -155,7 +155,7 @@ li {
 }
 
 .bar {
-  background: linear-gradient(to right, #57e9ee, gray);
+  background: linear-gradient(to right, #ffe838, #bd2d48);
   width: 100%;
   height: 3px;
   border-radius: 0.8rem;
@@ -195,9 +195,9 @@ li {
 }
 
 .landing-text h1 {
-  font-size: 9rem;
+  font-size: 16rem;
   font-family: "Bungee Shade", cursive;
-  background: linear-gradient(to top, gray, #57e9ee);
+  background: linear-gradient(to top, #ffe838, #bd2d48);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   padding: 1rem;
@@ -286,14 +286,15 @@ li {
 .icon-container {
   width: 10rem;
   height: 10rem;
-  border: 3px solid gray;
-  background-color: #57e9ee;
+  border: 3px solid #ffe838;
+  background-color: #bd2d48;
   margin-bottom: 2rem;
   display: flex;
   transform: rotate(45deg);
 }
+
 .icon-container i {
-  color: #210070;
+  color: #ffe838;
   font-size: 5rem;
   margin: auto;
   transform: rotate(-45deg);
@@ -346,7 +347,7 @@ li {
 }
 
 .timeline ul {
-  border-left: 4px solid gray;
+  border-left: 4px solid #ffe838;
   border-radius: 0.8rem;
   background-color: rgba(0, 0, 0, 0.05);
   margin: 0 auto;
@@ -396,7 +397,7 @@ li {
 
 .timeline .date::after {
   content: "";
-  box-shadow: 0 0 0 4px #57e9ee;
+  box-shadow: 0 0 0 4px #bd2d48;
   border-radius: 100%;
   left: -8rem;
   height: 1.5rem;
@@ -429,8 +430,8 @@ textarea {
 
 input[type="submit"] {
   width: initial;
-  background-color: #57e9ee;
-  color: rgb(17, 3, 54);
+  background-color: #f0392c;
+  color: #eee;
   padding: 1rem 2rem;
   border-radius: 0.8rem;
   cursor: pointer;
@@ -439,7 +440,7 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
   color: #221e3f;
-  background-color: #f8a915;
+  background-color: #f4af1b;
 }
 
 .copyright {
@@ -475,7 +476,7 @@ input[type="submit"]:hover {
 
 @keyframes pulse {
   0% {
-    box-shadow: 0 0 0 0 rgba(197, 196, 194, 0.99);
+    box-shadow: 0 0 0 0 rgba(253, 87, 191, 0.99);
   }
   70% {
     box-shadow: 0 0 0 2rem rgba(253, 87, 191, 0);
