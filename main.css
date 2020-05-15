@@ -196,7 +196,7 @@ li {
 .landing-text h1 {
   font-size: 20rem;
   font-family: "Retronoid";
-  background: linear-gradient(to top, #ffe838, #fd57bf);
+  background: linear-gradient(to top, #5eff00, #e0deded8);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   padding: 1rem;
