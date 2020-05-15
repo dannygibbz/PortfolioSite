@@ -587,8 +587,9 @@ input[type="submit"]:hover {
 }
 @font-face {
   font-family: "rainy_daysregular";
-  src: url("rainydays-webfont.woff2") format("woff2"),
-    url("rainydays-webfont.woff") format("woff");
+  src: url("www.dan-gibbons.com/css/fonts/rainydays-webfont.woff2")
+      format("woff2"),
+    url("www.dan-gibbons.com/css/fonts/rainydays-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
