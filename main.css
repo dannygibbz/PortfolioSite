@@ -14,6 +14,7 @@ body {
   width: 100%;
   height: 100%;
   background: url("images/sitebg.jpg") no-repeat center fixed;
+  /* background-color: #393057; */
   background-size: cover;
 }
 
@@ -195,8 +196,8 @@ li {
 
 .landing-text h1 {
   font-size: 20rem;
-  font-family: "Retronoid";
-  background: linear-gradient(to top, #5eff00, #e0deded8);
+  font-family: "Rainy Days";
+  background: linear-gradient(to top, #5eff00, #fc01fcf1);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   padding: 1rem;
@@ -488,6 +489,7 @@ input[type="submit"]:hover {
 @media screen and (max-width: 768px) {
   body {
     background: url("images/sitebg.jpg") no-repeat center fixed;
+    /* background-color: #393057; */
     background-size: cover;
   }
   .landing-text h1 {
