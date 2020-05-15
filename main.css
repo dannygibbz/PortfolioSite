@@ -197,7 +197,7 @@ li {
 .landing-text h1 {
   font-size: 20rem;
   font-family: "Rainy Days";
-  background: linear-gradient(to top, #5eff00, #fc01fcf1);
+  background: linear-gradient(to top, #ebfc05, #fc01fcf1);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   padding: 1rem;
@@ -584,4 +584,11 @@ input[type="submit"]:hover {
   .up {
     right: 2rem;
   }
+}
+@font-face {
+  font-family: "rainy_daysregular";
+  src: url("rainydays-webfont.woff2") format("woff2"),
+    url("rainydays-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
