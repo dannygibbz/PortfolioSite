@@ -7,4 +7,4 @@ This is my personal website. It contains my work history, technologies I work wi
 
 # Technologies Used
 
-I built this site with HTML, CSS, and Javascript.
+I built this site with HTML, CSS, and Javascript. To achieve animation I used the Animate on Scroll library.
