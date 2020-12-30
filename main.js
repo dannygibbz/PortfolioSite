@@ -41,7 +41,8 @@ window.addEventListener("DOMContentLoaded", function() {
 
   function success() {
     form.reset()
-    status.innerHTML = "Thanks! Your message was submitted successfully."
+    status.classList.add("success")
+    status.innerHTML = "Thank you! Your message was submitted successfully ✅"
   }
 
   function error() {
