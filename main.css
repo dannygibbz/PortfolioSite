@@ -6,8 +6,14 @@
 
 html {
   font-size: 10px;
-  font-family: "Source Sans 3", system-ui, -apple-system, BlinkMacSystemFont,
-    "Segoe UI", Arial, sans-serif;
+  font-family:
+    "Source Sans 3",
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Arial,
+    sans-serif;
   color: #1f1f1f;
 }
 
@@ -119,8 +125,14 @@ li {
 }
 
 .nav-link {
-  font-family: "Source Sans 3", system-ui, -apple-system, BlinkMacSystemFont,
-    "Segoe UI", Arial, sans-serif;
+  font-family:
+    "Source Sans 3",
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Arial,
+    sans-serif;
   font-size: 4rem;
   padding: 1rem;
   color: #0f3d2e;
@@ -198,8 +210,14 @@ li {
 
 .landing-text h1 {
   font-size: 15rem;
-  font-family: "Source Sans 3", system-ui, -apple-system, BlinkMacSystemFont,
-    "Segoe UI", Arial, sans-serif;
+  font-family:
+    "Source Sans 3",
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Arial,
+    sans-serif;
   padding: 1rem;
   color: #0f3d2e;
 }
@@ -498,6 +516,20 @@ input[type="submit"]:hover {
 #my-form-status.success {
   background-color: #00a162;
   animation: status 4s ease forwards;
+}
+
+.port-link {
+  color: #0f3d2e;
+  text-decoration: none;
+  font-weight: 600;
+  transition:
+    color 0.2s ease,
+    opacity 0.2s ease;
+}
+
+.port-link:hover {
+  text-decoration: underline;
+  opacity: 0.8;
 }
 
 @keyframes status {
